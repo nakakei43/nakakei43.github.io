@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Play Games Publishing Tool</title>
+<style>
+:root{color-scheme:light}
+body{margin:0;background:#fbfbf9;color:#1c1c1a;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+main{max-width:44rem;margin:0 auto;padding:3rem 1.25rem 5rem}
+h1{font-size:1.6rem;line-height:1.3;margin:0 0 .25rem}
+.sub{color:#6b6b64;margin:0 0 2.5rem}
+h2{font-size:1.05rem;margin:2.5rem 0 .6rem;padding-top:1.5rem;border-top:1px solid #e5e5df}
+ul{padding-left:1.2rem}
+li{margin:.3rem 0}
+code{background:#efefe9;padding:.1rem .35rem;border-radius:3px;font-size:.9em}
+a{color:#2b5fd9}
+footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #e5e5df;color:#6b6b64;font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<h1>AI Play Games Publishing Tool</h1>
+<p class="sub">A personal command-line tool that publishes and localizes videos on a single YouTube channel.</p>
+
+<h2>What this tool does</h2>
+<p>
+This is a private command-line utility, run by one person on one personal computer. It automates the
+publishing chores for the YouTube channel
+<a href="https://www.youtube.com/@AIPlayGames-n5w">AI Play Games</a>, which posts videos about
+autonomous AI agents playing Minecraft.
+</p>
+<p>Specifically, it does four things, always and only on videos owned by the channel owner:</p>
+<ul>
+  <li>reads back a video's own metadata to confirm a write succeeded;</li>
+  <li>updates the title, description, tags and localized metadata of that video;</li>
+  <li>adds that video to the channel owner's own playlist;</li>
+  <li>uploads subtitle tracks in 11 languages to that video.</li>
+</ul>
+<p>
+The videos have no narration, so subtitles are the only way viewers who do not read English can follow
+them. Localizing every video into 11 languages by hand is what this tool exists to avoid.
+</p>
+
+<h2>Who can use it</h2>
+<p>
+No one but the channel owner. The tool is not distributed, not sold, has no sign-up, no user accounts and
+no web interface. The only Google account that can authorize it is the channel owner's own account.
+It cannot read, modify or access anyone else's YouTube data.
+</p>
+
+<h2>How it uses YouTube</h2>
+<p>
+The tool uses the YouTube Data API v3 through OAuth 2.0, authorized by the channel owner. By using this
+tool the channel owner agrees to the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+Information about how Google handles data is described in the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+</p>
+
+<h2>Privacy</h2>
+<p>
+The tool collects no personal data from anyone. See the
+<a href="privacy.html">Privacy Policy</a> for the full statement.
+</p>
+
+<footer>
+Contact: <a href="mailto:nakakei43@gmail.com">nakakei43@gmail.com</a> &middot;
+<a href="privacy.html">Privacy Policy</a>
+</footer>
+</main>
+</body>
+</html>
